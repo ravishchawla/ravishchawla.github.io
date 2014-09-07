@@ -1,8 +1,29 @@
 window.onload = function() {
 	//loadProjects();
 
-		document.getElementById('footer').innerHTML = '<div class="container"><h4><small>Copyright © Ravish Chawla 2014.</small></h4></div>';
-	
+		document.getElementById('footer').innerHTML = '<div class="container"><h4><small>Hosted at Github. Copyright © Ravish Chawla 2014.</small></h4></div>';
+		
+		document.getElementById('header').innerHTML = 
+		'<nav class="navbar navbar-default" role="navigation">\
+			<div class="container">\
+				<a href="index.html" class="navbar-brand" pull-left">\
+					Ravish Chawla\
+				</a>\
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">\
+					<span class="glyphicon glyphicon-align-justify"></span>\
+				</button>\
+				<div class="navbar-collapse collapse">\
+					<ul class="navbar-nav nav">\
+						<li><a href="profile.html">Profile</a></li>\
+						<li><a href="projects.html">Projects</a></li>\
+						<li><a href="resume.html">Resume</a></li>\
+						<li><a href="http://www.linkedin.com/in/rchawla8/">LinkedIn</a></li>\
+						<li><a href="https://github.com/rchawla8">GitHub</a></li>\
+						<li><a href="mailto:rchawla@gatech.edu">Email</a></Li>\
+					</ul>\
+				</div>\
+			</div>\
+		</nav>';
 }
 
 loadProjects = function() {
