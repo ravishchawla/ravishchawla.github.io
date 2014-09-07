@@ -1,5 +1,8 @@
 window.onload = function() {
 	//loadProjects();
+
+		document.getElementById('footer').innerHTML = '<div class="container"><h4><small>Copyright (c) Ravish Chawla 2014.</small></h4></div>';
+	
 }
 
 loadProjects = function() {
