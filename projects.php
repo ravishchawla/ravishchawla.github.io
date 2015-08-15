@@ -105,7 +105,7 @@
 	<div class="footer" role="footer">
 		<div id="footer">
 			<div class="container">
-				<h4><small>Copyright (c) Ravish Chawla 2014.</small></h4>
+				<h4><small>Copyright (c) Ravish Chawla 2015.</small></h4>
 			</div>
 		</div>
 </div>
