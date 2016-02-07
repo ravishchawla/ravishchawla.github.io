@@ -114,6 +114,7 @@ var CustomStyle = (function CustomStyleClosure() {
 })();
 
 function getFileName(url) {
+  console.log("url", url);
   var anchor = url.indexOf('#');
   var query = url.indexOf('?');
   var end = Math.min(
@@ -205,13 +206,14 @@ function getPDFFileNameFromURL(url) {
   var suggestedFilename = reFilename.exec(splitURI[1]) ||
                            reFilename.exec(splitURI[2]) ||
                            reFilename.exec(splitURI[3]);
+  console.log("file: " , suggestedFilename);
   if (suggestedFilename) {
     suggestedFilename = suggestedFilename[0];
     if (suggestedFilename.indexOf('%') != -1) {
       // URL-encoded %2Fpath%2Fto%2Ffile.pdf should be file.pdf
       try {
         suggestedFilename =
-          reFilename.exec(decodeURIComponent(suggestedFilename))[0];
+          reFilename.exec(decodeURIC<F11>omponent(suggestedFilename))[0];
       } catch(e) { // Possible (extremely rare) errors:
         // URIError "Malformed URI", e.g. for "%AA.pdf"
         // TypeError "null has no properties", e.g. for "%2F.pdf"

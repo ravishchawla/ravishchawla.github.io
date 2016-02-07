@@ -1,0 +1,41 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ravish Chawla Profile</title>
+	<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/bootstrap/style.css" rel="stylesheet">
+	<link href="/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>	
+	<!-- Site header and navigation -->
+<div id="wrap">	
+			<div class="header" role="header" id="header">
+</div>
+
+	<div class="middle body">
+		<div class="container">
+<!--<iframe src="https://onedrive.live.com/embed?cid=6F6EADBFD3AFFCA2&resid=6F6EADBFD3AFFCA2%21160200&authkey=AGCLsI5CAQf5Jys&em=2" width="100%" height="100%" frameborder="0" scrolling="no" class="visible-sm-block visible-md-block visible-lg-block" ></iframe>-->
+	<iframe src="/web/viewer.html?file=http%3A%2F%2Fasync5.org%2Fmoz%2Fpdfjs.pdf" width="100%" height="100%" class="visible-sm-block visible-md-block visible-lg-block"></iframe>
+		<h3><a href="/files/Ravish_Chawla_resume.pdf" >Download</a></h3>
+		
+		</div>
+	</div>
+	
+	
+	<div class="footer" role="footer">
+		<div id="footer">
+		</div>
+</div>
+	
+	
+</div>
+	
+</body>
+</html>                                  		
+
+<script src="/jquery/jquery-2.1.1.min.js"></script>
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+<script src="/js/script.js"></script>
+</body>
+</html>

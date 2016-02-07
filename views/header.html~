@@ -1,0 +1,22 @@
+<div class="header" role="header" >
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container">
+				<a href="index.php" class="navbar-brand" pull-left">
+					Ravish Chawla
+				</a>
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="glyphicon glyphicon-align-justify"></span>
+				</button>
+				<div class="navbar-collapse collapse">
+					<ul class="navbar-nav nav">
+						<li><a href="php/profile.php">Profile</a></li>
+						<li><a href="php/projects.php">Projects</a></li>
+						<li><a href="php/resume.php">Resume</a></li>
+						<li><a href="http://www.linkedin.com/in/rchawla8/">LinkedIn</a></li>
+						<li><a href="https://github.com/rchawla8">GitHub</a></li>
+						<li><a href="mailto:rchawla@gatech.edu">Email</a></Li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+</div>
