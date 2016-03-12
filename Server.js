@@ -17,13 +17,14 @@ app.use(express.static('files'));
 app.use("/img", express.static(__dirname + "/img"));
 app.use("/files", express.static(__dirname + "/files"));
 app.use("/js", express.static(__dirname + "/js"));
+app.use("/css", express.static(__dirname + "/css"));
 app.use("/bootstrap", express.static(__dirname + "/bootstrap"));
 app.use("/jquery", express.static(__dirname + "/jquery"));
 app.use("/php", express.static(__dirname + "/php"));
 app.use("/views", express.static(__dirname + "/views"));
 app.use("/web", express.static(__dirname + "/web"));
 
-app.use("/pdfjs", express.static(__dirname + "/pdfjs"));
+app.use("/pdfjs/dist", express.static(__dirname + "/pdfjs/dist"));
 
 app.use("*", function(req, res) {
 	res.sendFile(path + "404.html");

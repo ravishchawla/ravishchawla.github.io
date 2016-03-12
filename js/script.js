@@ -24,6 +24,8 @@ window.onload = function() {
 				</div>\
 			</div>\
 		</nav>';
+
+	loadPDF();
 }
 
 loadProjects = function() {
@@ -35,8 +37,7 @@ loadPDF = function() {
 	console.log("loading pdf");
 //	var pdf = "http://net.educause.edu/ir/library/pdf/ELI7081.pdf";
 //	document.getElementById("pdfData").data = pdf;
-	new PdfViewer({pdfUrl:'Ravish_Chawl_resume.pdf', statichost: '/files'}).embed(document.getElementById('container'));
-
+	new PdfViewer({pdfUrl: 'Ravish_Chawla_resume.pdf', staticHost: '/files/', download: '/files/Ravish_Chawla_resume.pdf'}).embed(document.getElementById('pdfcontainer'))
 }
 
 loadName = function() {
