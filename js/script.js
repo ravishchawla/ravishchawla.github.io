@@ -32,8 +32,10 @@ loadProjects = function() {
 
 loadPDF = function() {
 
-	var pdf = "http://net.educause.edu/ir/library/pdf/ELI7081.pdf";
-	document.getElementById("pdfData").data = pdf;
+	console.log("loading pdf");
+//	var pdf = "http://net.educause.edu/ir/library/pdf/ELI7081.pdf";
+//	document.getElementById("pdfData").data = pdf;
+	new PdfViewer({pdfUrl:'Ravish_Chawl_resume.pdf', statichost: '/files'}).embed(document.getElementById('container'));
 
 }
 

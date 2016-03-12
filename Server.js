@@ -23,6 +23,8 @@ app.use("/php", express.static(__dirname + "/php"));
 app.use("/views", express.static(__dirname + "/views"));
 app.use("/web", express.static(__dirname + "/web"));
 
+app.use("/pdfjs", express.static(__dirname + "/pdfjs"));
+
 app.use("*", function(req, res) {
 	res.sendFile(path + "404.html");
 });
