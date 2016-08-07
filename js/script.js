@@ -1,7 +1,7 @@
 window.onload = function() {
 	//loadProjects();
 
-		document.getElementById('footer').innerHTML = '<div align="center" class="container"><h4><small>Hosted at Github. Copyright © Ravish Chawla 2015.</small></h4></div>';
+		document.getElementById('footer').innerHTML = '<div align="center" class="container"><h4><small>Hosted on a Raspberry π. Copyright © Ravish Chawla 2015.</small></h4></div>';
 		
 		document.getElementById('header').innerHTML = 
 		'<nav class="navbar navbar-default" role="navigation">\

@@ -10,7 +10,7 @@
     return e.prototype.embed = function(e) {
         this.container = e;
         var t = document.createElement("iframe");
-        t.height = "100%", t.width = "100%", t.frameBorder = "none", t.src = this.staticHost + "" + encodeURIComponent(this.pdfUrl), e.innerHTML = "", e.appendChild(t);
+        t.title="ws", t.height = "100%", t.width = "100%", t.frameBorder = "none", t.src = this.staticHost + "" + encodeURIComponent(this.pdfUrl), e.innerHTML = "", e.appendChild(t);
         var i, n = this;
         return "function" == typeof n.onerror ? (this.receiveMessage = i = function(e) {
             var t = e.origin,
