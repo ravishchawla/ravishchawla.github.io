@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteRule ^index\.htm$ index.php [NC,R]
+
+ErrorDocument 400 http://www.5gb.co/400.html
+ErrorDocument 401 http://www.5gb.co/401.html
+ErrorDocument 403 http://www.5gb.co/403.html
+ErrorDocument 404 http://www.5gb.co/404.html
+ErrorDocument 500 http://www.5gb.co/500.html
+ErrorDocument 503 http://www.5gb.co/503.html
